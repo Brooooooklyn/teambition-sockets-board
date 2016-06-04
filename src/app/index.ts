@@ -1,2 +1,2 @@
-export * from './environment';
-export * from './angualar2-teambition.component';
+export * from './oauth/OAuth'
+export * from './main/MainComponent'

@@ -16,7 +16,7 @@
   },
 
   "files": [
-    "main.ts",
+    "index.ts",
     "typings.d.ts"
   ]
 }

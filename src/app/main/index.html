@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let event of results">
+    <ul>
+      <li *ngFor="let val of event">
+        {{val.key}}: <span [innerHTML]="val.value | json"></span>
+      </li>
+    </ul>
+  </li>
+</ul>
+<teambition-oauth></teambition-oauth>
